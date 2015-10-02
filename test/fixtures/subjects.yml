@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: subjects
+#
+#  id           :integer          not null, primary key
+#  subject_name :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subject_name: MyString
+
+two:
+  subject_name: MyString

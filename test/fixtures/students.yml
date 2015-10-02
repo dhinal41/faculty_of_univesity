@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: students
+#
+#  id               :integer          not null, primary key
+#  student_name     :string
+#  address          :text
+#  birthday         :date
+#  gender           :string
+#  handphone        :string
+#  telephone_number :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student_name: MyString
+  address: MyText
+  birthday: 2015-10-01
+  gender: MyString
+  handphone: MyString
+  telephone_number: MyString
+
+two:
+  student_name: MyString
+  address: MyText
+  birthday: 2015-10-01
+  gender: MyString
+  handphone: MyString
+  telephone_number: MyString

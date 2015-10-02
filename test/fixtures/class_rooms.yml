@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: class_rooms
+#
+#  id              :integer          not null, primary key
+#  class_room_name :string
+#  status          :string
+#  category        :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  class_room_name: MyString
+  status: MyString
+  category: MyString
+
+two:
+  class_room_name: MyString
+  status: MyString
+  category: MyString
